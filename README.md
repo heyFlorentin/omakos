@@ -59,73 +59,35 @@ All packages are managed through Homebrew and defined in [`configs/Brewfile`](co
 - [Git](https://git-scm.com/) for version control
 - [Homebrew](http://brew.sh/) for managing operating system libraries
 - [ZSH](https://www.zsh.org/) with [Oh My Zsh](https://ohmyz.sh/) for a better shell experience
-- [coreutils](https://www.gnu.org/software/coreutils/) for GNU file, shell and text manipulation utilities
 - [curl](https://curl.se/) and [wget](https://www.gnu.org/software/wget/) for downloading files
 - [fzf](https://github.com/junegunn/fzf) for command-line fuzzy finding
-- [jq](https://stedolan.github.io/jq/) for JSON processing
-- [btop](https://github.com/aristocratos/btop) for system resource monitoring
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) for system information display
 - [ffmpeg](https://ffmpeg.org/) for video processing
 - [gh](https://cli.github.com/) for GitHub CLI integration
-- [libyaml](https://pyyaml.org/wiki/LibYAML) for YAML parsing
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) for video downloading
 
 ### Development Environment
 
 - [Cursor](https://cursor.sh/) - AI-powered code editor
-- [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/) - Modern Vim-based editor
-- [Zed](https://zed.dev/) - High-performance code editor
+- [Antigravity](https://antigravity.google/) AI-powered code editor by Google
 - [Ghostty](https://github.com/mitchellh/ghostty) - Modern terminal emulator
-- [Docker](https://www.docker.com/) for containerization
 - [OrbStack](https://orbstack.dev/) for Docker and Linux development on macOS
-- [PostgreSQL 17](https://www.postgresql.org/) with `libpq` for database management
-- [Redis](https://redis.io/) for in-memory data store
-- [jemalloc](https://jemalloc.net/) for memory allocation
-- [vips](https://www.libvips.org/) for image processing (automatically installs configured runtimes if `~/.mise.toml` exists)
-- [Ollama](https://ollama.ai/) for local AI models
-- [Overmind](https://github.com/DarthSim/overmind) for process management
 - [Mise](https://mise.jdx.dev/) for runtime version management. The Mise configuration is present in [mise.toml](configs/mise.toml). It installs
-  - Python
-  - Ruby
-  - Rust
-  - Go
   - Node
 - [UV](https://github.com/astral-sh/uv) for Python packaging
-- [pnpm](https://pnpm.io/) for Node.js package management
 
 ### Productivity & Communication
 
 - [1Password](https://1password.com/) for password management
-- [Brave Browser](https://brave.com/) for web browsing
-- [ChatGPT](https://chat.openai.com/) for AI assistance
-- [Claude](https://claude.ai/) for AI assistance
+- [Arc](https://arc.net/) the best web browser
 - [Discord](https://discord.com/) for communication
-- [IINA](https://iina.io/) for media playback
-- [iTerm2](https://iterm2.com/) for terminal emulation
-- [LocalSend](https://localsend.org/) for cross-platform file sharing
-- [NetNewsWire](https://netnewswire.com/) for RSS reading
-- [Obsidian](https://obsidian.md/) for note-taking
 - [PearCleaner](https://www.pearcleaner.com/) for app uninstallation
 - [Raycast](https://www.raycast.com/) for productivity launcher
-- [Rectangle](https://rectangleapp.com/) for window management
-- [Slack](https://slack.com/) for team communication
-- [SuperWhisper](https://superwhisper.com/) for voice transcription
-- [WhatsApp](https://www.whatsapp.com/) for messaging
-- [Zoom](https://zoom.us/) for video conferencing
+- [Superhuman Mail](https://superhuman.com/) for email
 
 ### Fonts
 
-- Cascadia Code
-- Cascadia Mono
-- Commit Mono
-- DM Sans
-- Fira Code
-- Geist
-- Geist Mono
-- Google Sans Code
-- Hack
-- IBM Plex Mono
-- IBM Plex Sans
-- Work Sans
+- Iosevka
 
 ### Enhanced macOS Settings
 
